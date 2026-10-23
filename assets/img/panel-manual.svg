@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="'Noto Sans JP',sans-serif">
+  <rect width="640" height="480" rx="14" fill="#1f242a"/>
+  <rect x="24" y="24" width="592" height="432" rx="6" fill="#0f3a5a"/>
+  <rect x="24" y="24" width="592" height="52" rx="6" fill="#0b2a42"/>
+  <text x="48" y="58" fill="#fff" font-size="20" font-weight="700">手動運転画面</text>
+  <text x="592" y="58" fill="#9fd3ef" font-size="14" text-anchor="end">2026/10/23 10:42</text>
+  <rect x="48" y="96" width="544" height="130" rx="6" fill="#134a70"/>
+  <text x="64" y="124" fill="#9fd3ef" font-size="14">現在のルーバー角度</text>
+  <text x="320" y="196" fill="#fff" font-size="60" font-weight="700" text-anchor="middle">42°</text>
+  <g stroke="#9fd3ef" stroke-width="4" stroke-linecap="round">
+    <line x1="480" y1="130" x2="520" y2="150"/><line x1="480" y1="156" x2="520" y2="176"/><line x1="480" y1="182" x2="520" y2="202"/>
+  </g>
+  <g font-size="16" fill="#fff" text-anchor="middle" font-weight="700">
+    <rect x="48" y="252" width="256" height="100" rx="8" fill="#1d7fb5"/>
+    <text x="176" y="296">◀ 逆転（開）</text><text x="176" y="326" font-size="11" font-weight="400" fill="#dff1fb">押している間ルーバーが動きます</text>
+    <rect x="336" y="252" width="256" height="100" rx="8" fill="#1d7fb5"/>
+    <text x="464" y="296">正転（閉） ▶</text><text x="464" y="326" font-size="11" font-weight="400" fill="#dff1fb">押している間ルーバーが動きます</text>
+  </g>
+  <g font-size="14" fill="#fff" text-anchor="middle">
+    <rect x="48" y="376" width="176" height="52" rx="6" fill="#2a5f82"/><text x="136" y="408">自動画面へ</text>
+    <rect x="240" y="376" width="176" height="52" rx="6" fill="#2a5f82"/><text x="328" y="408">待機角度へ</text>
+    <rect x="432" y="376" width="160" height="52" rx="6" fill="#48515a"/><text x="512" y="408">停止</text>
+  </g>
+  <text x="320" y="446" fill="#7fa6bf" font-size="11" text-anchor="middle">※ タッチパネル画面イメージ（仮画像）</text>
+</svg>

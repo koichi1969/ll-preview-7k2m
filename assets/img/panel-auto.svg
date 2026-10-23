@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="'Noto Sans JP',sans-serif">
+  <rect width="640" height="480" rx="14" fill="#1f242a"/>
+  <rect x="24" y="24" width="592" height="432" rx="6" fill="#0f3a5a"/>
+  <rect x="24" y="24" width="592" height="52" rx="6" fill="#0b2a42"/>
+  <text x="48" y="58" fill="#fff" font-size="20" font-weight="700">自動運転画面</text>
+  <text x="592" y="58" fill="#9fd3ef" font-size="14" text-anchor="end">2026/10/23 10:42</text>
+  <rect x="48" y="96" width="256" height="150" rx="6" fill="#134a70"/>
+  <text x="64" y="124" fill="#9fd3ef" font-size="14">現在角度</text>
+  <text x="176" y="200" fill="#fff" font-size="56" font-weight="700" text-anchor="middle">42°</text>
+  <text x="64" y="232" fill="#cfe7f5" font-size="12">太陽光と直角になるよう稼働中</text>
+  <rect x="336" y="96" width="256" height="150" rx="6" fill="#134a70"/>
+  <text x="352" y="124" fill="#9fd3ef" font-size="14">日射計 照度</text>
+  <text x="464" y="200" fill="#fff" font-size="48" font-weight="700" text-anchor="middle">18,400</text>
+  <text x="464" y="232" fill="#cfe7f5" font-size="12" text-anchor="middle">lx（設定範囲 10,000 - 25,000）</text>
+  <rect x="48" y="272" width="256" height="64" rx="6" fill="#1d7fb5"/>
+  <text x="64" y="300" fill="#fff" font-size="15" font-weight="700">自動運転</text>
+  <text x="64" y="322" fill="#dff1fb" font-size="11">緯度経度・日時から太陽位置を算出</text>
+  <rect x="236" y="288" width="56" height="30" rx="15" fill="#0b2a42"/><circle cx="276" cy="303" r="12" fill="#3cc46b"/><text x="254" y="308" fill="#fff" font-size="11">ON</text>
+  <rect x="336" y="272" width="256" height="64" rx="6" fill="#1d7fb5"/>
+  <text x="352" y="300" fill="#fff" font-size="15" font-weight="700">照度補正</text>
+  <text x="352" y="322" fill="#dff1fb" font-size="11">設定範囲の照度を維持するよう角度を自動調整</text>
+  <rect x="524" y="288" width="56" height="30" rx="15" fill="#0b2a42"/><circle cx="564" cy="303" r="12" fill="#3cc46b"/><text x="542" y="308" fill="#fff" font-size="11">ON</text>
+  <g font-size="14" fill="#fff" text-anchor="middle">
+    <rect x="48" y="368" width="120" height="56" rx="6" fill="#2a5f82"/><text x="108" y="402">手動画面</text>
+    <rect x="184" y="368" width="120" height="56" rx="6" fill="#2a5f82"/><text x="244" y="402">設定</text>
+    <rect x="320" y="368" width="120" height="56" rx="6" fill="#2a5f82"/><text x="380" y="402">位置設定</text>
+    <rect x="456" y="368" width="136" height="56" rx="6" fill="#48515a"/><text x="524" y="402">停止</text>
+  </g>
+  <text x="320" y="446" fill="#7fa6bf" font-size="11" text-anchor="middle">※ タッチパネル画面イメージ（仮画像）</text>
+</svg>
