@@ -8,6 +8,7 @@ LOUVRELINE デモサイト ビルドスクリプト
 import os, io
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
+ASSET_VER = "3"   # CSS/JSを更新したら数字を上げる（ブラウザの古いキャッシュ対策）
 
 # ------------------------------------------------------------------
 # 共通データ
@@ -87,7 +88,7 @@ def head(title, base, desc="可動ルーバーの開発・製造メーカー ル
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@300;400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{base}assets/css/style.css">
+<link rel="stylesheet" href="{base}assets/css/style.css?v={ASSET_VER}">
 <link rel="icon" href="{base}assets/img/logo.png">
 </head>
 <body>
@@ -149,7 +150,7 @@ def foot(base):
     <div class="demo-note">※ 本サイトはデモ用です。住所・電話番号・一部画像は仮のものです。</div>
   </div>
 </footer>
-<script src="{base}assets/js/main.js"></script>
+<script src="{base}assets/js/main.js?v={ASSET_VER}"></script>
 </body>
 </html>
 """
